@@ -1,0 +1,15 @@
+
+<div  class="photossmain">
+  <div class="btn-div">
+    <button (click)="goBack()" class="btn text">Go Back</button>
+  </div>
+  <ul>
+    <li *ngFor="let photo of photos">
+      <p>album ID: {{photo.albumId}}</p>
+      <p>ID: {{photo.id}}</p><!--title: {{album.title}} --->
+      <p>Title: {{photo.title}}</p>
+      <img src="{{photo.thumbnailUrl}}" alt="">
+    </li>
+
+  </ul>
+</div>

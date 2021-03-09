@@ -1,0 +1,58 @@
+.albumsmain {
+  margin-left: 50px;
+}
+h2 {
+  text-align: center;
+  color: blueviolet;
+  font-family: "Bauhaus 93";
+}
+.addalbumdiv {
+  text-align: center;
+}
+.addalbumdiv label{
+  color: blueviolet;
+  font-size: 20px;
+  padding-right: 50px;
+  font-family: "Book Antiqua";
+  font-weight: bold;
+}
+.addalbumdiv input {
+  height: 32px;
+  width: 250px;
+  border: 1px solid blueviolet;
+  border-radius: 3px;
+}
+.add-button-div {
+  display: inline-table;
+  padding-left: 50px;
+}
+.button {
+  background-color: #c8ddfc;
+  border: 2px solid blueviolet;
+  border-radius: 3px;
+  color: blueviolet;
+  font-family: "Book Antiqua";
+  font-weight: bold;
+}
+.add-button {
+  height: 36px;
+  padding: 0px 30px 0px 30px;
+  font-size: 19px;
+}
+.add-button:hover {
+  background-color: #bad5ff;
+  color: #ad54ff;
+  border-color: #ad54ff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.listdiv li{
+  display: inline-table;
+  padding: 30px;
+  border: 1px solid blueviolet;
+  width: 100px;
+  height: 80px;
+}
+.listdiv li:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: #fdf6ff;
+}

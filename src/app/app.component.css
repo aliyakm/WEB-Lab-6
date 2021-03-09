@@ -1,0 +1,26 @@
+nav li {
+  display: inline-table;
+  padding: 15px 100px 20px 100px;
+  color: white;
+  text-decoration: none;
+  font-family: "Bauhaus 93";
+  font-size: 25px;
+}
+nav li:hover{
+  color: #bbbbbb;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+nav ul{
+  text-align: center;
+}
+
+nav li:visited {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #c8ddfc;
+  height: 70px;
+}

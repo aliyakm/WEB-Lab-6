@@ -1,0 +1,35 @@
+.btn-div {
+  padding-top: 20px;
+}
+.photossmain {
+  margin-left: 50px;
+}
+.btn {
+  background-color: #c8ddfc;
+  border: 2px solid blueviolet;
+  border-radius: 3px;
+  color: blueviolet;
+  height: 36px;
+  padding: 0px 30px 0px 30px;
+  font-size: 17px;
+}
+
+.text {
+  font-family: "Book Antiqua";
+  color: blueviolet;
+  font-weight: bold;
+}
+.photossmain li{
+  display: inline-table;
+  padding: 30px;
+  border: 1px solid blueviolet;
+  width: 200px;
+  height: 350px;
+  color: blueviolet;
+  font-family: "Book Antiqua";
+  font-weight: bold;
+}
+.photossmain li:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: #fdf6ff;
+}
